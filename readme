@@ -1,0 +1,9 @@
+*stupid programs for beginner to setup & add wifi in linux terminal*
+compile those programs by commands
+
+pi@raspberrypi:~$cc -o yourfavouritename(setup) stupid-linux-cmd-wifi-setup.c
+pi@raspberrypi:~$cc -o yourfavouritename(add) add-new-wifi-linux-cmd.c
+
+execute those programs by commands
+pi@raspberrypi:~$sudo ./yourfavouritename(setup) yourwifiname password
+pi@raspberrypi:~$sudo ./yourfavouritename(add) yourwifiname password
