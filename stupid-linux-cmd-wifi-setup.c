@@ -24,7 +24,7 @@ int main(int argc,char** argv){
 		fwrite(b,sizeof b-1,1,fp);
 		fwrite(argv[2],strlen(argv[2]),1,fp);
 		fwrite(c,sizeof c-1,1,fp);
-	}else if(argc==1){        //network name & password to be set at line 10 &11
+	}else if(argc==1){      				//network name & password to be set at line 10 &11
 		fwrite(a,sizeof a-1,1,fp);
 		fwrite(name,sizeof name-1,1,fp);
 		fwrite(b,sizeof b-1,1,fp);

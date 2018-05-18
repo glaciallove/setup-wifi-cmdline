@@ -1,4 +1,4 @@
-*stupid programs for beginner to setup & add wifi in linux terminal*
+*stupid programs for beginner to setup/reset & add new wifi network in linux terminal*
 //compile those programs by commands
 
 pi@raspberrypi:~$cc -o yourfavouritename(setup) stupid-linux-cmd-wifi-setup.c
